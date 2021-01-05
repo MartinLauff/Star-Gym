@@ -4,6 +4,7 @@
   "description": "gym website",
   "main": "app.js",
   "scripts": {
+    "dev": "node server.js",
     "start": "nodemon server.js",
     "start:prod": "NODE_ENV=production nodemon server.js",
     "debug": "ndb server.js"
