@@ -1528,6 +1528,25 @@
       top:0px;
     }
   }
+  @media only screen and (max-width: 740px) and (max-height: 425px) {
+    h1.titlecar2 {
+      right: 79vh;
+      top: 22vh;
+      font-size: 3.5rem !important;
+    }
+    .carousel-cell2 .next__button2 .cta {
+      right: 15vh;
+    }
+    .section__carousel2{
+        height:90vh;
+    }
+    .flickity-viewport{
+        height:311px;
+    }
+    .carousel-cell2 img{
+        height:80vh;
+    }
+  }
   @media only screen and (max-width: 670px) and (max-height: 425px) {
     h1.titlecar2 {
       right: 79vh;
@@ -1566,6 +1585,10 @@
         height:80vh;
     }
   }
+  @media only screen and (max-width: 580px) and (max-height: 325px) {
+    h1.titlecar2 {
+      font-size: 2.5rem !important;
+  }}
 @media only screen and (max-width: 800px) {
   .navbar-brand img{
     height:18px;
