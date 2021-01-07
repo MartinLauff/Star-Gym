@@ -4,15 +4,15 @@ const tabsContent = document.querySelectorAll('.operations__content');
 const tabs = document.querySelectorAll('.operations__tab');
 
 // Tabbed component
-tabsContainer.addEventListener('click', function (e) {
+tabsContainer.addEventListener('click', function(e) {
   const clicked = e.target.closest('.operations__tab');
 
   // Guard clause
   if (!clicked) return;
 
   // Remove active classes
-  tabs.forEach((t) => t.classList.remove('operations__tab--active'));
-  tabsContent.forEach((t) => t.classList.remove('operations__content--active'));
+  tabs.forEach(t => t.classList.remove('operations__tab--active'));
+  tabsContent.forEach(t => t.classList.remove('operations__content--active'));
 
   // Activate tab
   clicked.classList.add('operations__tab--active');
@@ -22,16 +22,6 @@ tabsContainer.addEventListener('click', function (e) {
     .querySelector(`.operations__content--${clicked.dataset.tab}`)
     .classList.add('operations__content--active');
 });
-
-// button v carouseli
-let btn = document.querySelector('.mouse-cursor-gradient-tracking');
-btn.onmousemove = function (e) {
-  let rect = e.target.getBoundingClientRect();
-  let x = e.clientX - rect.left;
-  let y = e.clientY - rect.top;
-  btn.style.setProperty('--x', x + 'px');
-  btn.style.setProperty('--y', y + 'px');
-};
 
 //Highlighted h2 in podheader
 function unif(lo, hi) {
@@ -53,7 +43,7 @@ function validateEmail(email) {
   return ex.test(email);
 }
 
-email.addEventListener('keydown', function () {
+email.addEventListener('keydown', function() {
   var email = this.value;
 
   if (validateEmail(email)) {
@@ -61,11 +51,11 @@ email.addEventListener('keydown', function () {
   }
 });
 
-button.addEventListener('click', function (e) {
+button.addEventListener('click', function(e) {
   e.preventDefault();
   this.classList.add('is-done', 'is-active');
 
-  setTimeout(function () {
+  setTimeout(function() {
     button.innerHTML = 'Ďakujeme!';
   }, 500);
 });
