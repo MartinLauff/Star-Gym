@@ -34,9 +34,9 @@ function jitter(el, lo, hi) {
   el.style['-webkit-transform'] = value;
 }
 
-//animacia subricbe
-var email = document.getElementById('email'),
-  button = document.getElementById('button');
+//animacia subscribe
+var email = document.getElementById('email');
+var button = document.getElementById('button');
 
 function validateEmail(email) {
   var ex = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
