@@ -226,6 +226,7 @@
     .dropdown-item {
       text-align: center !important;
       width: auto !important;
+      font-size: 1.5rem;
     }
     .overlayLeftBtn span:hover {
       font-weight: 700;
