@@ -380,7 +380,14 @@
     }
     .pravidla__view {
       height: 185vh ;
-      clip-path: polygon(0 12%, 100% 5%, 100% 80%, 0 100%);
+    }
+  }
+  @media only screen and (max-width: 670px) and (max-height: 290px) {
+    .section__pravidla {
+      height: 180vh ;
+    }
+    .pravidla__view {
+      height: 196vh ;
     }
   }
   @media only screen and (max-width: 568px) and (max-height: 320px) {
