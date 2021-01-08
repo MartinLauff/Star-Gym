@@ -12,10 +12,18 @@
       ),
       url(../img/pravidla-img.jpg);
     background-size: cover;
+    -webkit-background-size: cover;
     background-position: 0 0;
+    -webkit-background-position: 0 0;
     background-repeat: no-repeat;
+    -webkit-background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 105%;
+    -webkit-background-attachment: fixed;
+    height: 100vh;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
   }
   .section__pravidla {
     width: 100%;
@@ -272,6 +280,15 @@
       background-position: 0 0;
       background-repeat: no-repeat;
       background-attachment: fixed;
+    }
+  }
+  @media only screen and (max-width: 390px) {
+    .pravidla__view {
+      clip-path: polygon(0 12%, 100% 5%, 100% 85%, 0 96%);
+      height: 151vh;
+    }
+    .section__pravidla {
+      height: 123vh;
     }
   }
   @media only screen and (max-width: 375px) {

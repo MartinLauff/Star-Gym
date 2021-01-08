@@ -588,7 +588,7 @@
   }
   @media screen and (max-width: 992px) {
     .podHeader {
-      height: 130vh;
+      height: 120vh;
     }
     .imgs__podheader {
       margin-left: 15rem;
@@ -1512,7 +1512,7 @@
   }
   @media only screen and (max-width: 780px) and (max-height: 570px) {
     .podHeader {
-      height: 140vh;
+      height: 200vh;
     }
     .navbar-collapse{
       padding:0;
