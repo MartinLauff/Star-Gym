@@ -252,30 +252,39 @@
       height: 133vh;
     }
   }
-  @media only screen and (max-width: 420px) {
+  @media only screen and (max-width: 425px) {
     .pravidla__view {
-      clip-path: polygon(0 14%, 100% 5%, 100% 85%, 0 97%);
+      clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
       -webkit-background: linear-gradient(
           45deg,
-          rgba(0, 0, 0, 0.514),
-          rgba(0, 0, 0, 0.555)
-        ),
-        url(../img/pravidla/pravidla-small.jpg);
+          rgb(0, 0, 0),
+          rgb(0, 0, 0)
+        );
       background: linear-gradient(
           45deg,
-          rgba(0, 0, 0, 0.514),
-          rgba(0, 0, 0, 0.555)
-        ),
-        url(../img/pravidla/pravidla-small.jpg);
-      background-size: cover;
-      background-position: 0 0;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
+          rgb(0, 0, 0),
+          rgb(0, 0, 0)
+        );
+    }
+    .pravidla__body {
+      -webkit-background: linear-gradient(
+        45deg,
+        #000,
+        #000
+        );
+      background: linear-gradient(
+          45deg,
+          #000,
+          #000
+        );
+    }
+    .pravidla__footer {
+      clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+      padding: 4rem !important;
     }
   }
   @media only screen and (max-width: 390px) {
     .pravidla__view {
-      clip-path: polygon(0 12%, 100% 5%, 100% 85%, 0 96%);
       height: 151vh;
     }
     .section__pravidla {
@@ -284,12 +293,11 @@
   }
   @media only screen and (max-width: 375px) {
     .pravidla__view {
-      clip-path: polygon(0 12%, 100% 5%, 100% 85%, 0 96%);
       height: 134vh;
     }
     .section__pravidla {
-      height: 123vh;
-    }
+      height: 133vh;
+  }
   }
   @media only screen and (max-width: 357px) {
     .pravidla__view {
@@ -311,20 +319,43 @@
     .section__pravidla {
       height: 160vh;
     }
-    .pravidla__footer {
-      clip-path: polygon(0 10%, 100% 2%, 100% 100%, 0 100%);
-    }
     .pravidla__view {
       height: 170vh;
-      clip-path: polygon(0 12%, 100% 5%, 100% 86%, 0 96%);
     }
   }
   @media only screen and (max-width: 768px) and (max-height: 425px) {
-    .section__pravidla {
-      height: 140vh;
-    }
     .pravidla__view {
       height: 150vh;
+      clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+      -webkit-background: linear-gradient(
+          45deg,
+          rgb(0, 0, 0),
+          rgb(0, 0, 0)
+        );
+      background: linear-gradient(
+          45deg,
+          rgb(0, 0, 0),
+          rgb(0, 0, 0)
+        );
+    }
+    .pravidla__body {
+      -webkit-background: linear-gradient(
+        45deg,
+        #000,
+        #000
+        );
+      background: linear-gradient(
+          45deg,
+          #000,
+          #000
+        );
+    }
+    .pravidla__footer {
+      clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+      padding: 4rem !important;
+    }
+    .section__pravidla {
+      height: 140vh;
     }
   }
   @media only screen and (max-width: 768px) and (max-height: 375px) {
