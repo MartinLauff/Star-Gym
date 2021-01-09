@@ -119,4 +119,11 @@
   .navbar-collapse{
     padding:0;
   }
+    .gallery {
+      -webkit-background: linear-gradient(45deg,rgba(255,0,0,0.514),rgba(0,0,255,0.555));
+      background: linear-gradient(#d8dfe9, #d9dfe9);
+  }
+  p.gallery__podtitle {
+    color: #000;
+  }
 }
