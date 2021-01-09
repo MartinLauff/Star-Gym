@@ -325,7 +325,13 @@
     }
   }
   @media only screen and (max-width: 768px) and (max-height: 425px) {
-    h2.section__title.pravidla__title {    margin-bottom: 1.5rem;}
+    h2.section__title.pravidla__title {    
+      margin-bottom: 1.5rem;
+      margin-top:4rem
+    }
+    .footer{
+      margin-top:8rem
+    }
     .pravidla__view {
       height: 150vh;
       clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
