@@ -4,6 +4,7 @@ $(document).ready(function() {
     size: 1450,
     tooltips: 'floating-top-center',
     responsive: 'auto',
-    tapOnce: true
+    tapOnce: true,
+    mobileSupport: true
   });
 });
