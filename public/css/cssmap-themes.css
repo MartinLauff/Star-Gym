@@ -81,7 +81,10 @@
 /* ---------------------------------------------------------------------------------------------------- *
                                  VISIBLE LIST OF REGIONS
  * ---------------------------------------------------------------------------------------------------- */
-.cssmap-visible-list a{margin: 1rem auto; font-size: 1.5rem;}
+ .continents li a {
+  margin: 1rem auto 0; font-size: 1.5rem;
+ }
+.cssmap-visible-list a{}
   /* SELECTED REGION */
   .cssmap-visible-list a:hover,.cssmap-visible-list a:focus,.cssmap-visible-list li.focus a{}
   /* ACTIVE REGION */
