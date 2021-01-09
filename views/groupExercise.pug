@@ -1,6 +1,6 @@
 extends groupExerciseBase
 
-mixin card(name, trainer, date, price, location, slug)
+mixin card(name, trainer, date, price, slug)
   h5.course__title= name
   .course__trener
     img.course__icon(src='https://img.icons8.com/ios-filled/50/000000/personal-trainer.png')
@@ -27,10 +27,10 @@ block content
           - if (exercise.name === 'INDOOR CYCLING')
             img.course__img.img__base(src='/img/skupArea/skup-4.jpg')
             img.course__img.img__exp(src='/img/skupArea/skup-4.2.png')
-            +card(exercise.name, exercise.trainer, exercise.date, exercise.price, exercise.location, exercise.slug)
+            +card(exercise.name, exercise.trainer, exercise.date, exercise.price, exercise.slug)
 
           - else 
             img.course__img(src=`/img/skupArea/${exercise.imageCover}`)
-            +card(exercise.name, exercise.trainer, exercise.date, exercise.price, exercise.location, exercise.slug)
+            +card(exercise.name, exercise.trainer, exercise.date, exercise.price, exercise.slug)
 
 
