@@ -67,19 +67,11 @@
   @media only screen and (max-width: 450px) {
     main{
       background: linear-gradient(45deg,rgba(255,0,0,0.514),rgba(0,0,255,0.555));
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
     }
   }
   @media only screen and (max-width: 815px) and (max-height: 380px) {
     main{
       background: linear-gradient(45deg,rgba(255,0,0,0.514),rgba(0,0,255,0.555));
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
     }
   }
   @media only screen and (max-width: 580px) and (max-height: 375px) {
