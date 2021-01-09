@@ -137,8 +137,7 @@
       margin: 0 4.5rem;
     }
     .skupArea__bg {
-        background: linear-gradient(rgb(86, 205, 50), rgb(205, 50, 86)),
-          url(/img/skupArea/skupArea-bg.jpg);
+        background: linear-gradient(rgb(86, 205, 50), rgb(205, 50, 86));
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
