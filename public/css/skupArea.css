@@ -132,16 +132,20 @@
       margin: 4rem 0 15rem;
     }
   }
+  @media screen and (max-width: 450px) {
+    .skupArea__bg {
+        background: linear-gradient(#d8dfe9, #d8dfe9);
+      }
+  }
+  @media screen and (max-width: 800px) and (max-height: 420px ) {
+    .skupArea__bg {
+        background: linear-gradient(#d8dfe9, #d8dfe9);
+    }
+  }
   @media screen and (max-width: 425px) {
     .skupArea__grid {
       margin: 0 4.5rem;
     }
-    .skupArea__bg {
-        background: linear-gradient(rgb(86, 205, 50), rgb(205, 50, 86));
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-      }
   }
   @media screen and (max-width: 380px) {
     .skup__title {
