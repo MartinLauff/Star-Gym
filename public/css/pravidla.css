@@ -378,26 +378,25 @@
   }
   @media only screen and (max-width: 670px) and (max-height: 380px) {
     .section__pravidla {
-      height: 170vh ;
+      height: 180vh ;
     }
     .pravidla__view {
-      height: 185vh ;
+      height: 195vh ;
     }
   }
   @media only screen and (max-width: 670px) and (max-height: 275px) {
     .section__pravidla {
-      height: 194vh ;
+      height: 204vh ;
     }
     .pravidla__view {
-      height: 205vh ;
+      height: 215vh ;
     }
   }
   @media only screen and (max-width: 568px) and (max-height: 320px) {
     .section__pravidla {
-      height: 210vh;
+      height: 220vh;
     }
     .pravidla__view {
-      height: 245vh;
-      padding-bottom:5vh;
+      height: 255vh;
     }
   }
