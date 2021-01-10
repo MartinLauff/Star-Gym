@@ -53,8 +53,24 @@ block content
                     a.nav-link(href='/kontakt') Kontakt
                   .nav-item.languages
                     img.sk_flag(src='/img/slovakia.png' alt='sk_flag')
-                    a(href=`https://stargym-en.herokuapp.com/regions/${region.slug}`)
-                      img.uk_flag(src='/img/uk.png' alt='uk_flag')
+                    if region.slug === 'australia'
+                      a(href='https://stargym-en.herokuapp.com/regions/oceania')
+                        img.uk_flag(src='/img/uk.png' alt='uk_flag')
+                    else if region.slug === 'azia'
+                      a(href='https://stargym-en.herokuapp.com/regions/asia')
+                        img.uk_flag(src='/img/uk.png' alt='uk_flag')
+                    else if region.slug === 'severna-amerika'
+                      a(href='https://stargym-en.herokuapp.com/regions/north-america')
+                        img.uk_flag(src='/img/uk.png' alt='uk_flag')
+                    else if region.slug === 'juzna-amerika'
+                      a(href='https://stargym-en.herokuapp.com/regions/south-america')
+                        img.uk_flag(src='/img/uk.png' alt='uk_flag')
+                    else if region.slug === 'afrika'
+                      a(href='https://stargym-en.herokuapp.com/regions/africa')
+                        img.uk_flag(src='/img/uk.png' alt='uk_flag')
+                    else 
+                      a(href='https://stargym-en.herokuapp.com/regions/europe')
+                        img.uk_flag(src='/img/uk.png' alt='uk_flag')
 
   main
     section.section-header
